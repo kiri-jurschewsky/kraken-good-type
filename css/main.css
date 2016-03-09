@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #222;
+  margin: 0;
+}
+
+
+header {
+  background-color: #259f95;
+  color: #fff;
+  padding: 1.5em;
+  margin: 0;
+  border-radius: 1 1 5px 5px
+}
