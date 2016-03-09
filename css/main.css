@@ -29,8 +29,12 @@ article {
 }
 
 footer {
-	background-color: #259f95;
-	color: #fff;
-	text-align: center;
-	font-style: italic;
+  background-color: #259f95;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+  font-size: 0.75em;
+  padding: 1.5em;
+  margin: 0;
+  
 }
