@@ -1,31 +1,39 @@
 html {
   box-sizing: border-box;
-	font: normal;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
+  font: normal 100%;
 }
 
 body {
   color: #222;
   margin: 0;
+  font-family: "Libre Baskerville", serif;
+  padding: 0 1em 0 1em;
 }
-
 
 header {
   background-color: #259f95;
   color: #fff;
   padding: 1.5em;
   margin: 0;
-  border-radius: 1 1 5px 5px;
-  font-family: "Libre Baskerville", serif;
-	text-align: left;
+  border-radius: 0 0 10px 10px;
+  text-align: left;
+}
+
+h1 {
+  color: #fff;
+  display: block;
+}
+
+.chapter-num {
+  color: #fff;
+  font-style: italic;
+  display: block;
+  font-size: 0.5em;
 }
 
 article {
   text-align: left;
-  max-width: 47em
+  max-width: 47em;
 }
 
 footer {
@@ -36,13 +44,27 @@ footer {
   font-size: 0.75em;
   padding: 1.5em;
   margin: 0;
-  border-radius: 5px 5px;
+  border-radius: 5px 5px 0 0;
+  text-align: left;
 }
 
 img {
-	border-color: #259f95;
-	border-style: solid;
-	display: block;
-	width: 100%;
-	border-radius: 5px
+  border-color: #259f95;
+  border-style: solid;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.colon {
+  display: none;
+}
+
+p:nth-child(2)::first-line {
+  color: #1e7c74;
+  font-style: italic;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
