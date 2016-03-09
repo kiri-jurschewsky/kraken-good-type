@@ -36,5 +36,13 @@ footer {
   font-size: 0.75em;
   padding: 1.5em;
   margin: 0;
-  
+  border-radius: 5px 5px;
+}
+
+img {
+	border-color: #259f95;
+	border-style: solid;
+	display: block;
+	width: 100%;
+	border-radius: 5px
 }
